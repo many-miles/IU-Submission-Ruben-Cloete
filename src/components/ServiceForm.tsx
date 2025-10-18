@@ -44,8 +44,8 @@ const MDEditor = dynamic(() => import("@uiw/react-md-editor").then((mod) => mod.
 const serviceFormStyles = `
 .service-form_label { display: block; font-weight: 600; font-size: 14px; color: #333; margin-bottom: 8px; }
 .service-form_input, .service-form_textarea { width: 100%; padding: 12px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 14px; transition: border-color 0.2s; }
-.service-form_input:focus, .service-form_textarea:focus { outline: none; border-color: #EE2B69; }
-.service-form_error { color: #dc2626; font-size: 12px; margin-top: 4px; }
+.service-form_input:focus, .service-form_textarea:focus { outline: none; border-color: #667eea; }
+.service-form_error { color: #667eea; font-size: 12px; margin-top: 4px; }
 `;
 
 const ServiceForm = () => {

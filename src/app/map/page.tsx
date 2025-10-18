@@ -45,7 +45,7 @@ const allServices: MapService[] = servicesData.services
   return (
     <>
       {/* Header section */}
-      <section className="pink_container !min-h-[200px]">
+      <section className="hero_container !min-h-[200px]">
         <h1 className="heading">Service Map</h1>
         <p className="sub-heading">
           Explore all services in Jeffreys Bay
@@ -70,14 +70,14 @@ const allServices: MapService[] = servicesData.services
         {/* Category breakdown grid */}
         <div className="grid md:grid-cols-3 gap-4 mt-8">
           {/* All Services option */}
-          <button
-            onClick={() => setSelectedCategory("all")}
-            className={`w-full bg-white border-2 ${
-              selectedCategory === "all" 
-                ? 'border-primary shadow-md' 
-                : 'border-gray-200'
-            } rounded-lg p-4 text-center hover:shadow-md transition-all`}
-          >
+            <button
+              onClick={() => setSelectedCategory("all")}
+              className={`w-full bg-white border-2 ${
+                selectedCategory === "all" 
+                  ? 'border-[#667eea] shadow-lg bg-gradient-to-br from-[#667eea]/5 to-[#764ba2]/5' 
+                  : 'border-gray-200 hover:border-[#667eea]/50'
+              } rounded-lg p-4 text-center transition-all transform hover:scale-105`}
+            >
             <p className="text-3xl mb-2">🗺️</p>
             <p className="font-semibold">All Services</p>
           </button>
@@ -108,9 +108,9 @@ const allServices: MapService[] = servicesData.services
                 onClick={() => setSelectedCategory(category as string)}
                 className={`w-full bg-white border-2 ${
                   selectedCategory === category 
-                    ? 'border-primary shadow-md' 
-                    : 'border-gray-200'
-                } rounded-lg p-4 text-center hover:shadow-md transition-all`}
+                    ? 'border-[#667eea] shadow-lg bg-gradient-to-br from-[#667eea]/5 to-[#764ba2]/5' 
+                    : 'border-gray-200 hover:border-[#667eea]/50'
+                } rounded-lg p-4 text-center transition-all transform hover:scale-105`}
               >
                 {/* Emoji icon for category */}
                 <p className="text-3xl mb-2">

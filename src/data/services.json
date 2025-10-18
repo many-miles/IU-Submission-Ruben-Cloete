@@ -750,6 +750,109 @@
       "views": 0,
       "isActive": true,
       "featured": false
+    },
+    {
+      "_id": "1760798717974",
+      "_createdAt": "2025-10-18T14:45:17.974Z",
+      "title": "Test Service 9 ",
+      "slug": {
+        "current": "test-service-9-"
+      },
+      "description": "Test Service 9 Short Description",
+      "category": "surfing",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.nuA7ewZJ1c-NvQdYPQVbrQHaER?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "pitch": "Long Description of Test Service 9",
+      "location": {
+        "lat": -34.0754124384174,
+        "lng": 24.910613295482918
+      },
+      "priceRange": "budget",
+      "contactMethod": "phone",
+      "contactDetails": "0736112042",
+      "serviceRadius": 5,
+      "availability": [
+        "thursday",
+        "friday"
+      ],
+      "author": {
+        "_id": "1760798649995",
+        "name": "Ruben",
+        "username": "rscloete10",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ruben",
+        "bio": "Service Provider"
+      },
+      "views": 0,
+      "isActive": true,
+      "featured": false
+    },
+    {
+      "_id": "1760801957518",
+      "_createdAt": "2025-10-18T15:39:17.518Z",
+      "title": "Test Service Video 10",
+      "slug": {
+        "current": "test-service-video-10"
+      },
+      "description": "Short Description Test 10",
+      "category": "surfing",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.nuA7ewZJ1c-NvQdYPQVbrQHaER?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "pitch": "Long Description",
+      "location": {
+        "lat": -34.06233020008908,
+        "lng": 24.921145603087343
+      },
+      "priceRange": "budget",
+      "contactMethod": "whatsapp",
+      "contactDetails": "0736112042",
+      "serviceRadius": 5,
+      "availability": [
+        "tuesday",
+        "wednesday"
+      ],
+      "author": {
+        "_id": "1760800889889",
+        "name": "Ruben",
+        "username": "rscloete10",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ruben",
+        "bio": "Service Provider"
+      },
+      "views": 0,
+      "isActive": true,
+      "featured": false
+    },
+    {
+      "_id": "1760802230639",
+      "_createdAt": "2025-10-18T15:43:50.639Z",
+      "title": "Test Service Video 11",
+      "slug": {
+        "current": "test-service-video-11"
+      },
+      "description": "Short Description Video 11",
+      "category": "surfing",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.nuA7ewZJ1c-NvQdYPQVbrQHaER?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "pitch": "Long Description",
+      "location": {
+        "lat": -34.05972298949231,
+        "lng": 24.917367558997046
+      },
+      "priceRange": "moderate",
+      "contactMethod": "phone",
+      "contactDetails": "0736112042",
+      "serviceRadius": 5,
+      "availability": [
+        "tuesday",
+        "wednesday",
+        "thursday"
+      ],
+      "author": {
+        "_id": "1760800889889",
+        "name": "Ruben",
+        "username": "rscloete10",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ruben",
+        "bio": "Service Provider"
+      },
+      "views": 0,
+      "isActive": true,
+      "featured": false
     }
   ],
   "users": [

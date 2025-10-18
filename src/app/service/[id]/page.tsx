@@ -70,7 +70,11 @@ export default async function ServicePage({
       <ViewCounter serviceId={service._id} floating={true} />
 
       {/* Header section with service title, date, and category */}
-      <section className="pink_container !min-h-[230px]">
+      <section className="hero_container !min-h-[300px] relative overflow-hidden">
+      <div className="absolute top-10 right-10 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
+  
+  <div className="relative z-10 w-full max-w-4xl">
         <div className="flex items-center gap-2 mb-4">
           <p className="tag">{formatDate(service._createdAt)}</p>
           {service.category && (
@@ -82,6 +86,7 @@ export default async function ServicePage({
 
         <h1 className="heading">{service.title}</h1>
         <p className="sub-heading !max-w-5xl">{service.description}</p>
+        </div>
       </section>
 
       {/* Main content section */}

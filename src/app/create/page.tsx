@@ -18,7 +18,7 @@ const ServiceForm = dynamic(() => import("@/components/ServiceForm"), {
 export default function CreateService() {
   return (
     <>
-      <section className="pink_container !min-h-[200px]">
+      <section className="hero_container !min-h-[200px]">
         <h1 className="heading">Create New Service</h1>
         <p className="sub-heading">List your service in Jeffreys Bay</p>
       </section>

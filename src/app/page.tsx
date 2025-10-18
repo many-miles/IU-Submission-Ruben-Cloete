@@ -138,7 +138,7 @@ export default async function Home({
   return (
     <>
       {/* Hero Section with Search */}
-      <section className="pink_container">
+      <section className="hero_container">
         <h1 className="heading">
           Find Local Services in <br />
           Jeffreys Bay
@@ -174,10 +174,10 @@ export default async function Home({
                 href={`/?category=${cat}`}
                 scroll={false}
                 prefetch={false}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                   isActive 
-                    ? "bg-primary text-white scale-105 shadow-md" 
-                    : "bg-gray-200 hover:bg-gray-300 hover:scale-105"
+                    ? "bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white scale-105 shadow-md" 
+                    : "bg-white border border-gray-300 hover:border-[#667eea] hover:scale-105"
                 }`}
               >
                 {cat.charAt(0).toUpperCase() + cat.slice(1)} ({count})

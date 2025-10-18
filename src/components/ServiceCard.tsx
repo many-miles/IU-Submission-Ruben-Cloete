@@ -67,8 +67,15 @@ export default function ServiceCard({ post }: ServiceCardProps) {
     return priceMap[price] || price;
   };
 
-  return (
-    <article className="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-all flex flex-col">
+return (
+  <article className="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-all flex flex-col relative">
+    
+    {/* Featured Badge */}
+    {post.featured && (
+      <div className="absolute top-3 right-3 z-10 bg-amber-100 text-black text-[10px] font-extrabold px-2 py-1 rounded-lg border-2 border-black shadow-md uppercase tracking-wide">
+        Featured
+      </div>
+    )}
       
       {/* Image section */}
       {image && (
